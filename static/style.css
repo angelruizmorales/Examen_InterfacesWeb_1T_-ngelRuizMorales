@@ -1,0 +1,109 @@
+/*Ángel_Ruiz_Morales*/
+/*# sourceMappingURL=style.css.map */
+
+
+
+/*General*/
+body{
+    background: rgb(2, 0, 36);
+    background: linear-gradient(142deg, rgba(2, 0, 36, 1) 0%, rgba(193, 132, 23, 1) 41%, rgba(103, 103, 91, 0.9990371148459384) 100%);
+
+}
+
+table, th, td{
+    border: 1px solid orange;
+    background-color:white; 
+    text-align:center;
+    border-collapse: collapse;
+
+}
+th{
+    background-color: orange;
+    font-weight: 700;
+    font-family: 'Fredoka One';
+}
+td:hover {
+    background-color: orange;
+} 
+table{
+    width: 100%;
+}
+
+
+
+
+/*Clases específicas*/
+
+.Header1{
+    text-align: center;
+    text-emphasis-color: black;
+    background-color: rgb(194, 191, 191);
+    padding: 0.5%;
+    border-radius: 30px 30px 0px 0px;
+    border-bottom: 3px solid black;
+    font-family:'Fredoka One' ;
+}
+
+.Footer1{
+    text-align: center;
+    background-color: rgb(194, 191, 191);
+    padding: 0.5%;
+    border-radius: 0px 0px 30px 30px;
+    border-top: 3px solid black;
+    font-family:'Fredoka One' ;
+}
+.button_green{
+  background-color: green;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px 15px 15px 15px;
+  
+  
+}
+.button_gray{
+    background-color: gray;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px 15px 15px 15px;
+    
+    
+  }
+.centro{
+    text-align: center;
+}
+
+.noview{
+    visibility: hidden;
+    
+}
+
+.blanco{
+    background-color: white;
+}
+.blanco2{
+    background-color: white;
+    border-radius: 30px 30px 30px 30px;
+}
+.hombre{
+    background-color: blue;
+}
+.mujer{
+    background-color: pink;
+}
+.actividad{
+    background-color: gray;
+}
